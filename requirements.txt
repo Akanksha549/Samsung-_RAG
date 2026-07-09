@@ -1,0 +1,26 @@
+streamlit>=1.37.0
+
+# OpenAI
+openai>=1.35.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+
+# Vector Database
+langchain-chroma>=0.1.4
+chromadb>=0.5.5
+
+# Document Loading
+langchain-community>=0.3.0
+unstructured
+beautifulsoup4
+lxml
+html5lib
+
+# Text Splitting
+langchain-text-splitters>=0.3.0
+
+# Tokenizer
+tiktoken>=0.7.0
+
+# SQLite Fix for Streamlit Cloud
+pysqlite3-binary
